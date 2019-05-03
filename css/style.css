@@ -32,7 +32,6 @@ img:hover {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-  float: left;
 }
 
 .indifferent {
@@ -47,6 +46,15 @@ img:hover {
   background-color: #dd4444;
 }
 
+.col {
+    float: left;
+}
+.col-1 {
+  width: 66.66%;
+}
+.col-2 {
+  width: 33.33%;
+}
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
